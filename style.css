@@ -1,0 +1,72 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #5D3891;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.login-button, .back-button {
+  display: inline-block;
+  background: gold;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.barber-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.barber-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.barber-info {
+  padding: 15px;
+}
+
+.barber-info button {
+  background: gold;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.barber-info button:hover {
+  background: #e5c100;
+}
+
+.footer {
+  background: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
